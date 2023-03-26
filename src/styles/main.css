@@ -177,6 +177,13 @@ body {
         height: 427px;
     }
 
+    .header__logo-link,
+    .header__logo-link:link,
+    .header__logo-link:visited {
+        width: 32px;
+        height: 32px;
+    }
+
     .nav__icon-btn {
         display: none;
     }
