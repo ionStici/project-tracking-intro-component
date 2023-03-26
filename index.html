@@ -10,6 +10,12 @@
         />
         <title>Project tracking intro component | Frontend Mentor</title>
 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&family=Barlow:wght@300;400;500&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="./src/styles/main.css" />
         <script type="module" src="./src/scripts/main.js" defer></script>
     </head>
@@ -30,6 +36,7 @@
                     src="./src/images/icon-hamburger.svg"
                     alt="Open navbar"
                     role="img"
+                    data-nav="close"
                 />
 
                 <ul class="nav__ul">
@@ -43,7 +50,7 @@
                         <a class="nav__link" href=".">Pricing</a>
                     </li>
                     <li class="nav__li">
-                        <a class="nav__link" href=".">Login</a>
+                        <a class="nav__link nav__link--login" href=".">Login</a>
                     </li>
                 </ul>
             </nav>

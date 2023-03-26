@@ -4,7 +4,7 @@ This is a solution to the [Project tracking intro component challenge on Fronten
 
 <!--
 
-### Headings, Call-to-actions, Navigation
+
 
 - Family: [Barlow Condensed](https://fonts.google.com/specimen/Barlow+Condensed)
 - Weights: 400, 700
