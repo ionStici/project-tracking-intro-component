@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="./images/favicon-32x32.png" />
-    <title>Project tracking intro component | Frontend Mentor</title>
-  </head>
-  <body>
-    <!-- Product
-  Features
-  Pricing
-  Login
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/png"
+            href="./src/images/favicon-32x32.png"
+        />
+        <title>Project tracking intro component | Frontend Mentor</title>
+
+        <link rel="stylesheet" href="./src/styles/main.css" />
+        <script type="module" src="./src/scripts/main.js" defer></script>
+    </head>
+    <body>
+        <header class="header">
+            <a class="header__logo-link" href=".">
+                <img
+                    class="header__logo"
+                    src="./src/images/logo.svg"
+                    alt="Logo"
+                    role="img"
+                />
+            </a>
+
+            <nav class="nav">
+                <img
+                    class="nav__icon-btn"
+                    src="./src/images/icon-hamburger.svg"
+                    alt="Open navbar"
+                    role="img"
+                />
+
+                <ul class="nav__ul">
+                    <li class="nav__li">
+                        <a class="nav__link" href=".">Product</a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__link" href=".">Features</a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__link" href=".">Pricing</a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__link" href=".">Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- 
 
   New
   Monograph Dashboard
@@ -20,5 +58,5 @@
 
   Schedule a demo
   to see a live preview -->
-  </body>
+    </body>
 </html>
